@@ -1,0 +1,4 @@
+data/*/filings/
+data/*/text/
+.DS_Store
+.vscode/

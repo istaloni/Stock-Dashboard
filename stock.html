@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock Deep Dive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/common.js"></script>
+  <script src="js/charts.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="dot"></span>Stock Dashboard</a>
+      <button class="btn" onclick="toggleTheme()" aria-label="Toggle light/dark theme">Theme</button>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <p class="chart-tip" style="padding:40px 0">Loading…</p>
+  </main>
+
+  <script src="js/stocks.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

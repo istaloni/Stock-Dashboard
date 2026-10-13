@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="dot"></span>Stock Dashboard</a>
+      <button class="btn" onclick="toggleTheme()" aria-label="Toggle light/dark theme">Theme</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Stock deep dives</h1>
+      <p>Every quarter since the IPO, pulled from each company's own filings. Click a stock to open its dashboard.</p>
+    </section>
+
+    <div class="toolbar">
+      <input id="search" class="search" type="search" placeholder="Search ticker or name…" aria-label="Search stocks">
+    </div>
+
+    <section id="cards" class="grid-cards" aria-live="polite"></section>
+  </main>
+
+  <script src="js/stocks.js"></script>
+  <script>
+    const cardsEl = document.getElementById("cards");
+
+    function sparkline(canvas, values) {
+      const dpr = window.devicePixelRatio || 1;
+      const w = canvas.clientWidth, h = canvas.clientHeight;
+      canvas.width = w * dpr; canvas.height = h * dpr;
+      const ctx = canvas.getContext("2d"); ctx.scale(dpr, dpr);
+      const v = values.filter(x => x != null);
+      const min = Math.min(0, ...v), max = Math.max(...v);
+      const x = i => 2 + i * (w - 4) / (v.length - 1);
+      const y = val => h - 4 - (val - min) / (max - min || 1) * (h - 8);
+      ctx.beginPath();
+      v.forEach((val, i) => i ? ctx.lineTo(x(i), y(val)) : ctx.moveTo(x(i), y(val)));
+      ctx.strokeStyle = css("--accent"); ctx.lineWidth = 2; ctx.lineJoin = "round"; ctx.stroke();
+      ctx.lineTo(x(v.length - 1), h); ctx.lineTo(x(0), h); ctx.closePath();
+      ctx.globalAlpha = 0.12; ctx.fillStyle = css("--accent"); ctx.fill();
+    }
+
+    function render(filter = "") {
+      cardsEl.innerHTML = "";
+      const f = filter.toLowerCase();
+      for (const s of STOCKS) {
+        if (f && !(s.ticker + " " + s.name).toLowerCase().includes(f)) continue;
+        const d = (window.STOCK_DATA || {})[s.ticker];
+        const a = document.createElement("a");
+        a.className = "card stock-card";
+        a.href = "stock.html?t=" + encodeURIComponent(s.ticker);
+        if (!d) {
+          a.innerHTML = `<div class="row"><span class="ticker">${s.ticker}</span></div><div class="name">${s.name}</div><p class="chart-tip">Data file not found.</p>`;
+          cardsEl.appendChild(a); continue;
+        }
+        const all = d.quarters.filter(r => r.cons_adjrev != null);
+        const qs = all.filter(r => r.q >= "2021-Q2"), yago = all[all.length - 5];
+        const last = qs[qs.length - 1];
+        a.innerHTML = `
+          <div class="row"><span class="ticker">${s.ticker}</span><span class="tag">${s.sector}</span></div>
+          <div class="name">${s.name}</div>
+          <canvas aria-label="Quarterly adjusted revenue trend"></canvas>
+          <div class="chart-tip">Adjusted net revenue, ${fmt.q(qs[0].q)}–${fmt.q(last.q)}</div>
+          <div class="mini">
+            <div><div class="lbl">Rev ${fmt.q(last.q)}</div><div class="val">${fmt.money(last.cons_adjrev)}</div></div>
+            <div><div class="lbl">YoY</div><div class="val ${growth(last.cons_adjrev, yago.cons_adjrev) >= 0 ? "up" : "down"}">${fmt.pct(growth(last.cons_adjrev, yago.cons_adjrev))}</div></div>
+            <div><div class="lbl">Net income</div><div class="val">${fmt.money(last.cons_ni)}</div></div>
+          </div>`;
+        cardsEl.appendChild(a);
+        requestAnimationFrame(() => sparkline(a.querySelector("canvas"), qs.map(r => r.cons_adjrev)));
+      }
+      const add = document.createElement("div");
+      add.className = "card add-card";
+      add.innerHTML = `<strong>Add a stock</strong><p>Create <code>data/TICKER/data.js</code> and register it in <code>js/stocks.js</code>. Or ask Claude to build the next one.</p>`;
+      cardsEl.appendChild(add);
+    }
+
+    Promise.allSettled(STOCKS.map(s => loadScript(s.data))).then(() => render());
+    document.getElementById("search").addEventListener("input", e => render(e.target.value));
+    document.addEventListener("themechange", () => render(document.getElementById("search").value));
+  </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": { "liveServer.settings.port": 5501 },
+  "extensions": { "recommendations": ["ritwickdey.LiveServer"] }
+}
