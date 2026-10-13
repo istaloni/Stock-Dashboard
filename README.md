@@ -1,6 +1,6 @@
 # Stock Deep Dive
 
-Live: https://istaloni.github.io/StockDeepDive/
+Live: https://istaloni.github.io/Stock-Dashboard/
 
 Homepage of stocks → click one → quarterly deep dive built from the company's own filings.
 
