@@ -33,7 +33,7 @@
       lg.className = "legend";
       lg.innerHTML = cfg.series.map(s => `<span><i style="background:${s.color}"></i>${s.label}</span>`).join("");
       box.appendChild(lg);
-      top = 30;
+      top = Math.max(30, lg.offsetHeight + 12);
     }
     const n = cfg.labels.length;
     // domain
@@ -50,6 +50,7 @@
     else { const pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad; if (lo < 0 && cfg.nonneg) lo = 0; }
     if (cfg.ref != null) { hi = Math.max(hi, cfg.ref * 1.1); lo = Math.min(lo, cfg.ref); }
     if (cfg.minY != null && lo < cfg.minY) lo = cfg.minY;
+    if (cfg.maxY != null && hi > cfg.maxY) hi = cfg.maxY;
     const step = niceStep(hi - lo, 5);
     lo = Math.floor(lo / step) * step; hi = Math.ceil(hi / step) * step;
     const ticks = []; for (let v = lo; v <= hi + step / 2; v += step) ticks.push(+v.toFixed(10));
@@ -81,7 +82,7 @@
     }
     if (cfg.ref != null) {
       el("line", { x1: left, x2: W - right, y1: Y(cfg.ref), y2: Y(cfg.ref), stroke: css("--text-2"), "stroke-width": 1.5, "stroke-dasharray": "5 4" }, svg);
-      const rt = el("text", { x: W - right - 2, y: Y(cfg.ref) - 5, "text-anchor": "end", class: "ax ref" }, svg);
+      const rt = el("text", { x: left + 6, y: Y(cfg.ref) - 5, "text-anchor": "start", class: "ax ref" }, svg);
       rt.textContent = cfg.refLabel || String(cfg.ref);
     }
     const hl = el("rect", { x: 0, y: top, width: band, height: ph, fill: css("--text"), opacity: 0 }, svg);

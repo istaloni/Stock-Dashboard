@@ -70,7 +70,7 @@
           <div class="row"><span class="ticker">${s.ticker}</span><span class="tag">${s.sector}</span></div>
           <div class="name">${s.name}</div>
           <canvas aria-label="Quarterly adjusted revenue trend"></canvas>
-          <div class="chart-tip">Adjusted net revenue, ${fmt.q(qs[0].q)}–${fmt.q(last.q)}</div>
+          <div class="chart-tip">Quarterly revenue, ${fmt.q(qs[0].q)}–${fmt.q(last.q)}</div>
           <div class="mini">
             <div><div class="lbl">Rev ${fmt.q(last.q)}</div><div class="val">${fmt.money(last.cons_adjrev)}</div></div>
             <div><div class="lbl">YoY</div><div class="val ${growth(last.cons_adjrev, yago.cons_adjrev) >= 0 ? "up" : "down"}">${fmt.pct(growth(last.cons_adjrev, yago.cons_adjrev))}</div></div>
