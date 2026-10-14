@@ -140,6 +140,15 @@ thead th { color: var(--text-3); font-weight: 600; font-size: 12px; text-transfo
 .glossary dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px 28px; }
 .glossary dt { font-weight: 700; font-size: 14px; }
 .glossary dd { margin: 2px 0 0; color: var(--text-2); font-size: 14px; }
+.outlook { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+.ol-item .lbl { font-size: 12px; color: var(--text-3); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 8px; }
+.ol-grid { display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: start; }
+.ol-k { font-size: 11px; color: var(--text-3); }
+.ol-v { font-size: 22px; font-weight: 600; letter-spacing: -.02em; }
+.ol-g { font-size: 13px; color: var(--text); font-weight: 600; line-height: 1.35; margin-top: 2px; }
+.ol-actual { margin-top: 8px; font-size: 13px; }
+.ol-foot { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text-2); }
+.ol-src { font-size: 12px; color: var(--text-3); margin: 8px 0 24px; }
 .chart-tip { font-size: 12px; color: var(--text-3); }
 
 @media (max-width: 760px) {

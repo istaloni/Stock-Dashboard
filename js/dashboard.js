@@ -42,6 +42,21 @@
       ${B.kpis}
     </section>
 
+    ${M.nextQuarter ? (() => { const N = M.nextQuarter; return `
+    <div class="section-title"><div><h2>Next quarter: ${fmt.q(N.period)}</h2><p>Reports ${N.date}. Company guidance vs Wall Street consensus, as of ${N.asOf}.</p></div></div>
+    <section class="outlook" aria-label="Next quarter outlook">
+      ${N.items.map(it => `<div class="card ol-item">
+        <div class="lbl">${it.label}</div>
+        <div class="ol-grid">
+          <div><div class="ol-k">Consensus</div><div class="ol-v num">${it.consensus}</div></div>
+          <div><div class="ol-k">Guidance</div><div class="ol-g">${it.guidance}</div></div>
+        </div>
+        ${it.actual ? `<div class="ol-actual ${it.result === "beat" ? "up" : it.result === "miss" ? "down" : ""}">Actual: <b class="num">${it.actual}</b>${it.result ? " · " + it.result.toUpperCase() : ""}</div>` : ""}
+        <div class="ol-foot">Year ago: <span class="num">${it.yearAgo}</span>${it.note ? ` · ${it.note}` : ""}</div>
+      </div>`).join("")}
+    </section>
+    <p class="ol-src">Consensus = average analyst estimate (a snapshot, not live). Sources: ${N.sources.map(([t, u]) => `<a href="${u}" target="_blank" rel="noopener">${t}</a>`).join(" · ")}</p>`; })() : ""}
+
     <section class="two-col">
       <div class="card thesis"><h3><span class="pill bull">BULL</span>What's working</h3><ul>${M.bull.map(x => `<li>${x}</li>`).join("")}</ul></div>
       <div class="card thesis"><h3><span class="pill bear">BEAR</span>What to watch</h3><ul>${M.bear.map(x => `<li>${x}</li>`).join("")}</ul></div>

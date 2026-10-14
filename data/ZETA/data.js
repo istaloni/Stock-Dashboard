@@ -1,6 +1,6 @@
 // Auto-built from Zeta Global press releases and decks.
 window.STOCK_DATA = window.STOCK_DATA || {};
-window.STOCK_DATA['ZETA'] = {
+window.STOCK_DATA['ZETA']= {
  "meta": {
   "ticker": "ZETA",
   "name": "Zeta Global",
@@ -138,7 +138,60 @@ window.STOCK_DATA['ZETA'] = {
     "LiveIntent / Marigold",
     "Acquisitions: LiveIntent (identity and email ads, closed Oct 2024) and Marigold's Enterprise business (closed in Q4'25)."
    ]
-  ]
+  ],
+  "nextQuarter": {
+   "period": "2026-Q3",
+   "date": "Thu, Nov 5, 2026 \u00b7 after market close (expected; not yet confirmed by Zeta)",
+   "dateConfirmed": false,
+   "asOf": "Oct 14, 2026",
+   "sources": [
+    [
+     "Earnings Whispers (consensus & expected date)",
+     "https://www.earningswhispers.com/stocks/ZETA"
+    ],
+    [
+     "Zeta Q2'26 release (guidance)",
+     "https://s25.q4cdn.com/525061491/files/doc_financials/2026/q2/ZETA-2Q-26-Earnings-Press-Release_Final.pdf"
+    ]
+   ],
+   "items": [
+    {
+     "label": "Revenue",
+     "consensus": "$470.5M",
+     "guidance": "$469\u2013472M",
+     "yearAgo": "$337M",
+     "note": "Consensus sits at guidance midpoint (+40% YoY)"
+    },
+    {
+     "label": "Adj. EBITDA",
+     "consensus": "\u2014",
+     "guidance": "$115\u2013116M (24.4\u201324.7% margin)",
+     "yearAgo": "$78M",
+     "note": "Guide implies +48% YoY"
+    },
+    {
+     "label": "EPS",
+     "consensus": "$0.08",
+     "guidance": "FY GAAP EPS $0.09\u20130.11",
+     "yearAgo": "GAAP \u2013$0.02",
+     "note": "Earnings Whispers labels this GAAP; Zeta's non-GAAP EPS runs higher ($0.21 in Q2'26)"
+    },
+    {
+     "label": "FY26 revenue",
+     "consensus": "\u2014",
+     "guidance": "$1,811\u20131,824M",
+     "yearAgo": "FY25 $1,305M",
+     "note": "Raised $33M in August"
+    },
+    {
+     "label": "FY26 free cash flow",
+     "consensus": "\u2014",
+     "guidance": "$255\u2013256M",
+     "yearAgo": "FY25 $165M",
+     "note": "14% FCF margin"
+    }
+   ]
+  }
  },
  "quarters": [
   {

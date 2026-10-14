@@ -1,6 +1,6 @@
 // Auto-built from SoFi press releases. Re-run build to refresh.
 window.STOCK_DATA = window.STOCK_DATA || {};
-window.STOCK_DATA['SOFI'] = {
+window.STOCK_DATA['SOFI']= {
  "meta": {
   "ticker": "SOFI",
   "name": "SoFi Technologies",
@@ -127,7 +127,64 @@ window.STOCK_DATA['SOFI'] = {
     "Price / tangible book",
     "Share price \u00f7 TBV per share ($7.34). The usual way to value banks."
    ]
-  ]
+  ],
+  "nextQuarter": {
+   "period": "2026-Q3",
+   "date": "Tue, Oct 27, 2026 \u00b7 ~7:00 a.m. ET (before market open)",
+   "dateConfirmed": true,
+   "asOf": "Oct 14, 2026",
+   "sources": [
+    [
+     "Zacks consensus via Yahoo Finance (Oct 12, 2026)",
+     "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-inc-sofi-declines-204504823.html"
+    ],
+    [
+     "SoFi Q3'26 call announcement",
+     "https://investors.sofi.com/news/news-details/2026/SoFi-Schedules-Conference-Call-to-Discuss-Q3-2026-Results/default.aspx"
+    ],
+    [
+     "SoFi Q2'26 release (guidance)",
+     "https://s27.q4cdn.com/749715820/files/doc_financials/2026/q2/2026-Q2-Earnings-Release.pdf"
+    ]
+   ],
+   "items": [
+    {
+     "label": "Adj. net revenue",
+     "consensus": "$1.25B",
+     "guidance": "No quarterly guide (FY $4.75\u20134.85B)",
+     "yearAgo": "$950M",
+     "note": "Consensus implies +31% YoY"
+    },
+    {
+     "label": "Diluted EPS",
+     "consensus": "$0.17",
+     "guidance": "No quarterly guide (FY ~$0.60)",
+     "yearAgo": "$0.11",
+     "note": "Consensus implies +55% YoY"
+    },
+    {
+     "label": "Members",
+     "consensus": "\u2014",
+     "guidance": "FY growth \u226530% (\u226516.4M by Dec)",
+     "yearAgo": "12.6M",
+     "note": "Q2'26: 15.8M (+35%)"
+    },
+    {
+     "label": "FY26 revenue",
+     "consensus": "$4.87B",
+     "guidance": "$4.75\u20134.85B",
+     "yearAgo": "FY25 $3.59B",
+     "note": "Street is above the top of guidance"
+    },
+    {
+     "label": "FY26 EPS",
+     "consensus": "$0.60",
+     "guidance": "~$0.60",
+     "yearAgo": "FY25 $0.39",
+     "note": "In line with guidance"
+    }
+   ]
+  }
  },
  "quarters": [
   {
