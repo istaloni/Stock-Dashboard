@@ -47,7 +47,7 @@
     }
     if (!isFinite(lo)) { lo = 0; hi = 1; }
     if (cfg.type === "bar" || cfg.zero) { lo = Math.min(0, lo); hi = Math.max(0, hi); }
-    else { const pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad; if (lo < 0 && cfg.nonneg) lo = 0; }
+    else { const pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad; if (lo < 0 && cfg.nonneg && cfg.minY == null) lo = 0; }
     if (cfg.ref != null) { hi = Math.max(hi, cfg.ref * 1.1); lo = Math.min(lo, cfg.ref); }
     if (cfg.minY != null && lo < cfg.minY) lo = cfg.minY;
     if (cfg.maxY != null && hi > cfg.maxY) hi = cfg.maxY;

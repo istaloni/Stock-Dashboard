@@ -125,9 +125,9 @@
 
   let range = 0;
   const sgn = v => v < 0 ? "-" : "";
-  const tickFmt = (u) => (v) => u === "#" ? v.toLocaleString() : u === "$K" ? "$" + v + "K" : u === "$Mx" ? "$" + v + "M" : u === "$M" ? (Math.abs(v) >= 1000 ? sgn(v) + "$" + +(Math.abs(v) / 1000).toFixed(2) + "B" : sgn(v) + "$" + Math.abs(v) + "M") : u === "$B" ? "$" + v + "B" : u === "%" ? v + "%" : u === "M" ? v.toLocaleString() + "M" : v;
-  const tipFmt = (u, v) => v == null ? "—" : u === "#" ? v.toLocaleString() : u === "$K" ? "$" + v.toLocaleString() + "K" : u === "$Mx" ? "$" + v.toFixed(2) + "M" : u === "$M" ? sgn(v) + "$" + Math.abs(v).toLocaleString(undefined, { maximumFractionDigits: 1 }) + "M"
-    : u === "$B" ? "$" + v.toFixed(2) + "B" : u === "%" ? v.toFixed(2) + "%" : u === "M" ? v.toFixed(1) + "M" : v.toFixed(2);
+  const tickFmt = (u) => (v) => u === "$" ? (v < 0 ? "-$" : "$") + Math.abs(v).toFixed(2) : u === "#" ? v.toLocaleString() : u === "$K" ? "$" + v + "K" : u === "$Mx" ? "$" + v + "M" : u === "$M" ? (Math.abs(v) >= 1000 ? sgn(v) + "$" + +(Math.abs(v) / 1000).toFixed(2) + "B" : sgn(v) + "$" + Math.abs(v) + "M") : u === "$B" ? (v < 0 ? "-$" : "$") + Math.abs(v) + "B" : u === "%" ? v + "%" : u === "M" ? v.toLocaleString() + "M" : v;
+  const tipFmt = (u, v) => v == null ? "—" : u === "$" ? (v < 0 ? "-$" : "$") + Math.abs(v).toFixed(2) : u === "#" ? v.toLocaleString() : u === "$K" ? "$" + v.toLocaleString() + "K" : u === "$Mx" ? "$" + v.toFixed(2) + "M" : u === "$M" ? sgn(v) + "$" + Math.abs(v).toLocaleString(undefined, { maximumFractionDigits: 1 }) + "M"
+    : u === "$B" ? (v < 0 ? "-$" : "$") + Math.abs(v).toFixed(2) + "B" : u === "%" ? v.toFixed(2) + "%" : u === "M" ? v.toFixed(1) + "M" : v.toFixed(2);
 
   function draw() {
     const R = range ? rows.slice(-range) : rows;
