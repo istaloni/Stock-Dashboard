@@ -132,7 +132,7 @@ window.STOCK_DATA['SOFI']= {
    "period": "2026-Q3",
    "date": "Tue, Oct 27, 2026 \u00b7 ~7:00 a.m. ET (before market open)",
    "dateConfirmed": true,
-   "asOf": "Oct 14, 2026",
+   "asOf": "Oct 19, 2026",
    "sources": [
     [
      "Zacks consensus via Yahoo Finance (Oct 12, 2026)",

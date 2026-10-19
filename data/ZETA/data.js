@@ -143,7 +143,7 @@ window.STOCK_DATA['ZETA']= {
    "period": "2026-Q3",
    "date": "Thu, Nov 5, 2026 \u00b7 after market close (expected; not yet confirmed by Zeta)",
    "dateConfirmed": false,
-   "asOf": "Oct 14, 2026",
+   "asOf": "Oct 19, 2026",
    "sources": [
     [
      "Earnings Whispers (consensus & expected date)",

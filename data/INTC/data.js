@@ -39,14 +39,14 @@ window.STOCK_DATA['INTC'] = {
    "period": "2026-Q3",
    "date": "Thu, Oct 29, 2026 \u00b7 after market close (call 2 p.m. PT)",
    "dateConfirmed": true,
-   "asOf": "Oct 15, 2026",
+   "asOf": "Oct 19, 2026",
    "sources": [
     [
      "Intel: date announcement",
      "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
     ],
     [
-     "MarketBeat consensus",
+     "MarketBeat consensus (Oct 18, 2026)",
      "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
     ],
     [
@@ -57,17 +57,17 @@ window.STOCK_DATA['INTC'] = {
    "items": [
     {
      "label": "Revenue",
-     "consensus": "$16.46B",
+     "consensus": "$16.50B",
      "guidance": "$15.8\u201316.8B",
      "yearAgo": "$13.65B",
-     "note": "Street sits above the guide midpoint ($16.3B)"
+     "note": "Street sits above the guide midpoint ($16.3B); +21% YoY"
     },
     {
      "label": "Non-GAAP EPS",
      "consensus": "$0.40",
      "guidance": "$0.38",
      "yearAgo": "$0.23",
-     "note": "Consensus implies +73% YoY"
+     "note": "Consensus implies +74% YoY"
     },
     {
      "label": "GAAP EPS",

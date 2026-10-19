@@ -39,15 +39,19 @@ window.STOCK_DATA['BE'] = {
    "period": "2026-Q3",
    "date": "Thu, Oct 22, 2026 \u00b7 after market close (call 2 p.m. PT)",
    "dateConfirmed": true,
-   "asOf": "Oct 15, 2026",
+   "asOf": "Oct 19, 2026",
    "sources": [
     [
      "Bloom: date announcement",
      "https://www.bloomenergy.com/news/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026/"
     ],
     [
-     "MarketBeat consensus",
-     "https://www.marketbeat.com/instant-alerts/upcoming-bloom-energy-be-expected-to-release-quarterly-earnings-on-thursday-2026-10-15/"
+     "Zacks consensus via Yahoo Finance (Oct 19, 2026)",
+     "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-q3-earnings-deck-121600245.html"
+    ],
+    [
+     "MarketBeat consensus (Oct 19, 2026)",
+     "https://www.marketbeat.com/earnings/reports/2026-10-22-bloom-energy-co-stock/"
     ],
     [
      "Bloom Q2'26 release (guidance)",
@@ -57,17 +61,17 @@ window.STOCK_DATA['BE'] = {
    "items": [
     {
      "label": "Revenue",
-     "consensus": "$1.06B",
+     "consensus": "$1.07B",
      "guidance": "No quarterly guide (FY $3.9\u20134.2B)",
      "yearAgo": "$519.0M",
-     "note": "Consensus implies ~+104% YoY, flat vs Q2"
+     "note": "Consensus implies ~+106% YoY, about flat vs Q2"
     },
     {
      "label": "Non-GAAP EPS",
-     "consensus": "$0.69",
+     "consensus": "$0.71",
      "guidance": "No quarterly guide (FY $2.55\u20132.85)",
      "yearAgo": "$0.15",
-     "note": "Q2'26: $0.78"
+     "note": "Zacks adjusted EPS (MarketBeat $0.69); Q2'26: $0.78"
     },
     {
      "label": "GAAP EPS",
