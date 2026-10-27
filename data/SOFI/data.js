@@ -1,6 +1,6 @@
 // Auto-built from SoFi press releases. Re-run build to refresh.
 window.STOCK_DATA = window.STOCK_DATA || {};
-window.STOCK_DATA['SOFI']= {
+window.STOCK_DATA['SOFI']={
  "meta": {
   "ticker": "SOFI",
   "name": "SoFi Technologies",
@@ -8,51 +8,66 @@ window.STOCK_DATA['SOFI']= {
   "exchange": "NASDAQ",
   "ipo": "June 1, 2021 (SPAC merger)",
   "units": "Dollar figures in $ thousands as reported; members/products in units.",
-  "latest": "2026-Q2",
-  "nextEarnings": "Q3 2026 results expected late Oct 2026",
+  "latest": "2026-Q3",
+  "nextEarnings": "Q4 2026 results expected late Jan 2027 (date not yet announced)",
   "guidance": {
-   "period": "FY2026 (as of Q2'26)",
+   "period": "FY2026 and first FY2027 outlook (as of Q3'26, Oct 27, 2026)",
    "items": [
     [
-     "Adjusted net revenue",
-     "$4.75B\u2013$4.85B (+32\u201335%)",
-     "Raised from ~$4.655B"
+     "Adjusted net revenue (2026)",
+     "~$5.04B (~+40%)",
+     "Raised from $4.75\u20134.85B"
     ],
     [
-     "Adjusted EBITDA",
-     "~$1.6B",
-     "Unchanged"
+     "Adjusted EBITDA (2026)",
+     "~$1.66B (~33% margin)",
+     "Raised"
     ],
     [
-     "Adjusted net income",
-     "~$825M",
-     "Unchanged"
+     "Adjusted net income (2026)",
+     "~$840M (~17% margin)",
+     "Unchanged per release"
     ],
     [
-     "Adjusted EPS",
-     "~$0.60",
-     "Unchanged"
+     "Adjusted EPS (2026)",
+     "~$0.61",
+     "Unchanged per release"
     ],
     [
-     "Members",
+     "Members (2026)",
      "+30% or more",
-     "Unchanged"
+     "Unchanged (already 17.1M, +35%)"
+    ],
+    [
+     "2027 adjusted net revenue",
+     "~$6.4B (~+27%)",
+     "New"
+    ],
+    [
+     "2027 adjusted EBITDA",
+     "~$2.24B (~35% margin)",
+     "New"
+    ],
+    [
+     "2027 adjusted net income / EPS",
+     "~$1.28B / ~$0.90",
+     "New"
     ]
    ]
   },
   "bull": [
-   "Members up 35% and products up 42% year over year, with growth speeding up at more than $1B in quarterly revenue.",
-   "Cross-buy reached 51% of new products, so each new product is cheaper to win.",
-   "Deposits ($45.5B) fund about 93% of the balance sheet, giving a funding-cost edge over fintechs without a bank charter.",
-   "Reported credit keeps improving: personal-loan charge-offs fell from 3.98% (Q4'23) to 2.62%.",
-   "Fee-based revenue ($472M/quarter) reduces dependence on balance-sheet lending."
+   "Record quarter: members up 35% (record 1.2M added) and products up 44%, with adjusted revenue up 44% to $1.37B.",
+   "Cross-buy held at 51% of new products, so each new product is cheaper to win.",
+   "Deposits ($51.3B) fund most of the balance sheet, giving a funding-cost edge over fintechs without a bank charter.",
+   "Reported credit keeps improving: personal-loan charge-offs fell from 3.98% (Q4'23) to 2.26%.",
+   "Fee-based revenue ($571M, 42% of the total) reduces dependence on balance-sheet lending. 2026 revenue outlook raised to ~$5.04B, and 2027 guided to ~$6.4B / ~$0.90 EPS."
   ],
   "bear": [
-   "Share dilution: diluted shares up about 14% in a year, and return on tangible equity is only about 7%.",
-   "Technology Platform (Galileo) is shrinking: accounts fell from 168M to 135M and segment margin fell to 14%.",
-   "Lending produces most of the profit, and that profit depends on fair-value marks (about $2.0B above unpaid principal) and model assumptions.",
-   "Sales of late-stage delinquent loans flatter reported charge-offs: Q2'26 was 2.62% reported, but management estimates about 3.7% all-in.",
-   "Revenue guidance was raised while profit guidance was held, so margins are expected to compress in 2H26."
+   "Share dilution: diluted shares keep rising (about +5% in a year), so EPS grows slower than net income.",
+   "Technology Platform (Galileo) is small and low-margin: 140M accounts (down from 168M at the peak) and a ~16% segment margin.",
+   "Lending produces most of the profit, and that profit depends on fair-value marks and model assumptions, which got more conservative in Q3'26 (default rate 5.10%, discount rate 5.56%).",
+   "Sales of late-stage delinquent loans flatter reported charge-offs (2.26% reported in Q3'26); management's all-in estimate is higher.",
+   "2026 profit guidance (~$840M adjusted net income, ~$0.61 EPS) was not raised along with revenue, implying lower Q4 margins."
   ],
   "irUrl": "https://investors.sofi.com/financials/quarterly-results/default.aspx",
   "sources": "SoFi quarterly press releases (9-quarter trend tables, newest restatement wins), investor presentations and 10-Q/10-K filings, investors.sofi.com.",
@@ -69,7 +84,7 @@ window.STOCK_DATA['SOFI']= {
    "deposits": "<p>Customer money in SoFi checking and savings accounts. SoFi became a <b>national bank</b> in early 2022 by buying Golden Pacific Bancorp. Before that it funded loans with warehouse credit lines at higher rates. Deposits are cheaper and more stable funding: about 93% of funding now, at a cost of about 3.1%, against loans yielding about 13% (personal). That spread is the core of the bank model. Deposits grew from $0 to $45.5B in about four years, mostly from members setting up direct deposit to earn the high savings rate.</p>",
    "nco": "<p>A <b>net charge-off</b> is a loan written off as uncollectible, minus anything later recovered. The <b>annualized rate</b> divides the quarter's charge-offs by average loans held and multiplies by 4. Example: in Q2'26 SoFi charged off about $171M on about $26.2B of average personal loans, which annualizes to 2.62%.</p><p>How to read it: borrowers pay about 13% interest and SoFi loses about 3% a year to defaults, so there is a wide margin for funding costs and profit. Below about 4% is strong for unsecured personal loans (credit-card charge-offs industry-wide typically run 3\u20135%+).</p><p><b>SoFi-specific caveat:</b> SoFi sells some loans once they are badly delinquent (90+ days late) to outside buyers <i>before</i> they would be charged off. Those losses show up as lower sale prices instead of charge-offs, which flatters the reported rate. Management estimates the all-in rate at about <b>3.7%</b> for Q2'26, against 2.62% reported. Use the all-in figure when judging credit.</p>",
    "fv": "<p>This chart explains much of SoFi's accounting. Most banks carry loans at cost minus a loss reserve. SoFi instead holds its personal and student loans at <b>fair value</b>: what it estimates a buyer would pay today. Each quarter it re-runs a cash-flow model, and changes in value flow straight into revenue. The model's key inputs:</p><ul><li><b>Coupon</b> (about 12.9%): the average interest rate borrowers pay. Higher means more value.</li><li><b>Annual default rate</b> (about 4.8%): the share of loans expected to default each year. Higher means less value.</li><li><b>Conditional prepayment rate</b> (about 26%, not charted): the share paid off early each year. Faster payoff cuts future interest.</li><li><b>Discount rate</b> (about 5%): the yield a buyer would demand. It equals a benchmark rate (about 3.6%) plus a spread. <i>A lower discount rate makes every loan worth more on paper.</i></li></ul><p>In Q2'26 the personal loans were marked at $27.5B against $26.1B of unpaid principal, about 105% of face value. <b>Why it matters:</b> if rates rise or defaults worsen, the marks fall and revenue takes a hit. Skeptics watch whether the discount rate seems too low. SoFi's defense is that it actually sells loans near those prices (for example, $175M of personal loans at 106.4% of par in Q3'25), which backs up the marks.</p>",
-   "shares": "<p>The weighted-average <b>diluted</b> share count: all shares outstanding plus those that would exist if options, restricted stock units and convertible notes converted. It rises through stock compensation (about $77M a quarter), convertible-note conversions, and new stock sold to raise capital (2H25). More shares means profit is split more ways, so EPS grows slower than net income. Net income was up 61% YoY in Q2'26 but EPS was up 50%. Up about 14% in a year is high dilution for a profitable company.</p>",
+   "shares": "<p>The weighted-average <b>diluted</b> share count: all shares outstanding plus those that would exist if options, restricted stock units and convertible notes converted. It rises through stock compensation (about $77M a quarter), convertible-note conversions, and new stock sold to raise capital (2H25). More shares means profit is split more ways, so EPS grows slower than net income. Net income was up 61% YoY in Q2'26 but EPS was up 50%. Dilution has slowed: about +14% in the year to Q2'26 (stock sold to raise capital), about +5% in the year to Q3'26.</p>",
    "tbv": "<p><b>Tangible book value</b> = shareholders' equity minus goodwill and intangible assets. For SoFi, those are mostly from buying Galileo (2020) and Technisys (2022). What's left is the 'hard' net worth backing the bank. It matters because <b>banks are commonly valued on price-to-tangible-book</b> (share price \u00f7 TBV per share). With TBV at $7.34/share, a $20 stock trades at about 2.7\u00d7 tangible book, a premium only a fast-growing, high-return bank can justify. TBV grows from retained profits and from new stock issuance. The 2H25 jump was mostly the equity offerings, not earnings.</p>",
    "tech": "<p>The number of open accounts running on <b>Galileo's</b> platform, the cards and accounts Galileo processes for its fintech and bank clients (including SoFi's own). Revenue depends on these accounts and their transaction volume. Growth stalled in 2024\u201325, then accounts fell from 158M to 128M in Q4'25, and segment revenue dropped from $122M to $75M in Q1'26 (a client shift; the Q4'25 10-K and call cover the specifics). Management is repositioning the business as <b>SoFi Technology Solutions</b> (processing, core banking, payments, fraud), so watch whether new enterprise clients rebuild the account base.</p>",
    "r40": "<p><b>Rule of 40</b>: revenue growth % + profit margin % should be at least 40. It captures the trade-off every growth company faces: grow fast and spend, or slow down and earn more. Above 40 means the balance is healthy.</p><ul><li><b>SoFi's way</b> (blue) uses adjusted EBITDA margin. This is the number in SoFi's deck (70 in Q2'26). Palantir's version is similar, using adjusted operating margin.</li><li><b>Strict</b> (orange) uses GAAP net income margin, so stock compensation, taxes and one-time items all count.</li></ul><p>On its own measure, SoFi has been above 40 in every quarter since the IPO except Q3'21 (32, when growth briefly slowed to 28%). Early on almost all of the score was growth, with margins near zero. Today it is about 40 growth + 30 margin. The strict version is choppier: it touched 49 in Q4'22, collapsed to \u201324 in Q3'23 (goodwill write-down), dipped to 25 in Q2'24 when growth slowed, and has held 52\u201356 since Q2'25. Q4'24's 69 is inflated by the one-time tax benefit.</p>"
@@ -129,63 +144,48 @@ window.STOCK_DATA['SOFI']= {
    ]
   ],
   "nextQuarter": {
-   "period": "2026-Q3",
-   "date": "Tue, Oct 27, 2026 \u00b7 ~7:00 a.m. ET (before market open)",
-   "dateConfirmed": true,
-   "asOf": "Oct 26, 2026",
+   "period": "2026-Q4",
+   "date": "Expected late Jan 2027 (not yet announced)",
+   "dateConfirmed": false,
+   "asOf": "Oct 27, 2026",
    "sources": [
     [
-     "TipRanks preview (Oct 26, 2026)",
-     "https://www.tipranks.com/news/sofi-technologies-will-report-q3-earnings-tomorrow-heres-what-to-expect"
+     "SoFi Q3'26 release (guidance)",
+     "https://www.sec.gov/Archives/edgar/data/0001818874/000181887426000065/a2026q3earningsrelease.htm"
     ],
     [
-     "MarketBeat consensus (Oct 2026)",
-     "https://www.marketbeat.com/earnings/reports/2026-10-27-sofi-technologies-inc-stock/"
-    ],
-    [
-     "SoFi Q3'26 call announcement",
-     "https://investors.sofi.com/news/news-details/2026/SoFi-Schedules-Conference-Call-to-Discuss-Q3-2026-Results/default.aspx"
-    ],
-    [
-     "SoFi Q2'26 release (guidance)",
-     "https://s27.q4cdn.com/749715820/files/doc_financials/2026/q2/2026-Q2-Earnings-Release.pdf"
+     "Benzinga consensus",
+     "https://www.benzinga.com/quote/SOFI/earnings-forecasts"
     ]
    ],
    "items": [
     {
      "label": "Adj. net revenue",
-     "consensus": "$1.25B",
-     "guidance": "No quarterly guide (FY $4.75\u20134.85B)",
-     "yearAgo": "$950M",
-     "note": "Consensus implies +31% YoY"
+     "consensus": "$1.32B",
+     "guidance": "~$1.38B implied (FY ~$5.04B minus 9 months)",
+     "yearAgo": "$1.01B",
+     "note": "Consensus predates the Q3 report"
     },
     {
      "label": "Diluted EPS",
-     "consensus": "$0.17",
-     "guidance": "No quarterly guide (FY ~$0.60)",
-     "yearAgo": "$0.11",
-     "note": "GAAP diluted; consensus implies +55% YoY (MarketBeat $0.166)"
+     "consensus": "$0.19",
+     "guidance": "No quarterly guide (FY ~$0.61 adjusted)",
+     "yearAgo": "$0.13",
+     "note": "Q3'26: $0.18"
     },
     {
      "label": "Members",
      "consensus": "\u2014",
-     "guidance": "FY growth \u226530% (\u226516.4M by Dec)",
-     "yearAgo": "12.6M",
-     "note": "Q2'26: 15.8M (+35%)"
+     "guidance": "FY growth \u226530%",
+     "yearAgo": "13.7M",
+     "note": "Q3'26: 17.1M (+35%)"
     },
     {
-     "label": "FY26 revenue",
-     "consensus": "$4.87B",
-     "guidance": "$4.75\u20134.85B",
-     "yearAgo": "FY25 $3.59B",
-     "note": "Street is above the top of guidance"
-    },
-    {
-     "label": "FY26 EPS",
-     "consensus": "$0.60",
-     "guidance": "~$0.60",
-     "yearAgo": "FY25 $0.39",
-     "note": "In line with guidance"
+     "label": "FY27 outlook",
+     "consensus": "\u2014",
+     "guidance": "~$6.4B rev \u00b7 ~$0.90 EPS",
+     "yearAgo": "FY26 ~$5.04B \u00b7 ~$0.61",
+     "note": "First look at 2027"
     }
    ]
   }
@@ -1240,6 +1240,46 @@ window.STOCK_DATA['SOFI']= {
     "Press release": "https://s27.q4cdn.com/749715820/files/doc_financials/2026/q2/2026-Q2-Earnings-Release.pdf",
     "Transcript": "https://s27.q4cdn.com/749715820/files/doc_financials/2026/q2/SoFi-2Q-2026-Earnings-Transcript_FINAL.pdf",
     "10-Q": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001818874/077b61df-f9fd-48dd-8540-e7a989bdc3a8.pdf"
+   }
+  },
+  {
+   "q": "2026-Q3",
+   "cons_rev": 1385099.0,
+   "cons_adjrev": 1371124.0,
+   "cons_ni": 240989.0,
+   "cons_ebitda": 469818.0,
+   "cons_nii": 929452.0,
+   "lend_rev": 821345.0,
+   "lend_adjrev": 807370.0,
+   "lend_cp": 454934.0,
+   "fs_rev": 525095.0,
+   "fs_cp": 261014.0,
+   "tech_rev": 87368.0,
+   "tech_cp": 14203.0,
+   "corp_rev": -48709.0,
+   "members": 17074272.0,
+   "products": 26671579.0,
+   "prod_lend": 3430054.0,
+   "prod_fs": 23241525.0,
+   "tech_accounts": 140440864.0,
+   "orig_personal": 12622140.0,
+   "orig_student": 2922068.0,
+   "orig_home": 1361024.0,
+   "deposits": 51325022.0,
+   "eps": 0.18,
+   "shares_dil_m": 1357.8,
+   "tbv": 9704959.0,
+   "tbv_ps": 7.48,
+   "pl_coupon": 12.78,
+   "pl_default": 5.1,
+   "pl_prepay": 25.87,
+   "pl_discount": 5.56,
+   "sl_discount": 5.11,
+   "sl_default": 0.89,
+   "nco_personal": 2.26,
+   "note": "Record quarter: adjusted revenue $1.37B (+44%), record 1.2M new members and $16.9B of loan originations. GAAP net income $241M, EPS $0.18 (vs $0.17 expected). Revenue outlook for 2026 raised to ~$5.04B, and a first 2027 outlook given (~$6.4B revenue, ~$0.90 EPS). Fair-value assumptions got more conservative (personal-loan default rate 5.10%, discount rate 5.56%).",
+   "files": {
+    "Press release (SEC)": "https://www.sec.gov/Archives/edgar/data/0001818874/000181887426000065/a2026q3earningsrelease.htm"
    }
   }
  ]
