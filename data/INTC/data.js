@@ -39,14 +39,18 @@ window.STOCK_DATA['INTC'] = {
    "period": "2026-Q3",
    "date": "Thu, Oct 29, 2026 \u00b7 after market close (call 2 p.m. PT)",
    "dateConfirmed": true,
-   "asOf": "Oct 19, 2026",
+   "asOf": "Oct 26, 2026",
    "sources": [
     [
      "Intel: date announcement",
      "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
     ],
     [
-     "MarketBeat consensus (Oct 18, 2026)",
+     "TipRanks preview (Oct 26, 2026)",
+     "https://www.tipranks.com/news/intel-intc-is-about-to-report-q3-earnings"
+    ],
+    [
+     "MarketBeat consensus (Oct 2026)",
      "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
     ],
     [

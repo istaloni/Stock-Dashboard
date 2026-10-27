@@ -79,10 +79,6 @@
         cardsEl.appendChild(a);
         requestAnimationFrame(() => sparkline(a.querySelector("canvas"), qs.map(r => r.cons_adjrev)));
       }
-      const add = document.createElement("div");
-      add.className = "card add-card";
-      add.innerHTML = `<strong>Add a stock</strong><p>Create <code>data/TICKER/data.js</code> and register it in <code>js/stocks.js</code>. Or ask Claude to build the next one.</p>`;
-      cardsEl.appendChild(add);
     }
 
     Promise.allSettled(STOCKS.map(s => loadScript(s.data))).then(() => render());

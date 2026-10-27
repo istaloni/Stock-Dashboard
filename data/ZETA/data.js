@@ -141,13 +141,17 @@ window.STOCK_DATA['ZETA']= {
   ],
   "nextQuarter": {
    "period": "2026-Q3",
-   "date": "Thu, Nov 5, 2026 \u00b7 after market close (expected; not yet confirmed by Zeta)",
+   "date": "Expected Tue Nov 3 \u2013 Thu Nov 5, 2026 \u00b7 after market close (not yet confirmed by Zeta)",
    "dateConfirmed": false,
-   "asOf": "Oct 19, 2026",
+   "asOf": "Oct 26, 2026",
    "sources": [
     [
      "Earnings Whispers (consensus & expected date)",
      "https://www.earningswhispers.com/stocks/ZETA"
+    ],
+    [
+     "MarketBeat consensus & estimated date",
+     "https://www.marketbeat.com/earnings/reports/2026-11-3-zeta-global-holdings-corp-stock/"
     ],
     [
      "Zeta Q2'26 release (guidance)",
@@ -160,7 +164,7 @@ window.STOCK_DATA['ZETA']= {
      "consensus": "$470.5M",
      "guidance": "$469\u2013472M",
      "yearAgo": "$337M",
-     "note": "Consensus sits at guidance midpoint (+40% YoY)"
+     "note": "EW $470.5M, MarketBeat $470.9M \u2014 at guide midpoint (+40% YoY)"
     },
     {
      "label": "Adj. EBITDA",
@@ -174,7 +178,7 @@ window.STOCK_DATA['ZETA']= {
      "consensus": "$0.08",
      "guidance": "FY GAAP EPS $0.09\u20130.11",
      "yearAgo": "GAAP \u2013$0.02",
-     "note": "Earnings Whispers labels this GAAP; Zeta's non-GAAP EPS runs higher ($0.21 in Q2'26)"
+     "note": "EW $0.08 (GAAP); MarketBeat $0.28 vs year-ago $0.18 (non-GAAP basis)"
     },
     {
      "label": "FY26 revenue",

@@ -132,11 +132,15 @@ window.STOCK_DATA['SOFI']= {
    "period": "2026-Q3",
    "date": "Tue, Oct 27, 2026 \u00b7 ~7:00 a.m. ET (before market open)",
    "dateConfirmed": true,
-   "asOf": "Oct 19, 2026",
+   "asOf": "Oct 26, 2026",
    "sources": [
     [
-     "Zacks consensus via Yahoo Finance (Oct 12, 2026)",
-     "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-inc-sofi-declines-204504823.html"
+     "TipRanks preview (Oct 26, 2026)",
+     "https://www.tipranks.com/news/sofi-technologies-will-report-q3-earnings-tomorrow-heres-what-to-expect"
+    ],
+    [
+     "MarketBeat consensus (Oct 2026)",
+     "https://www.marketbeat.com/earnings/reports/2026-10-27-sofi-technologies-inc-stock/"
     ],
     [
      "SoFi Q3'26 call announcement",
@@ -160,7 +164,7 @@ window.STOCK_DATA['SOFI']= {
      "consensus": "$0.17",
      "guidance": "No quarterly guide (FY ~$0.60)",
      "yearAgo": "$0.11",
-     "note": "Consensus implies +55% YoY"
+     "note": "GAAP diluted; consensus implies +55% YoY (MarketBeat $0.166)"
     },
     {
      "label": "Members",

@@ -39,11 +39,11 @@ window.STOCK_DATA['BE'] = {
    "period": "2026-Q3",
    "date": "Thu, Oct 22, 2026 \u00b7 after market close (call 2 p.m. PT)",
    "dateConfirmed": true,
-   "asOf": "Oct 19, 2026",
+   "asOf": "Oct 26, 2026",
    "sources": [
     [
-     "Bloom: date announcement",
-     "https://www.bloomenergy.com/news/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026/"
+     "Bloom Q3'26 results release (Oct 22, 2026)",
+     "https://www.bloomenergy.com/news/bloom-energy-reports-record-third-quarter-2026-financial-results-and-raises-full-year-2026-guidance/"
     ],
     [
      "Zacks consensus via Yahoo Finance (Oct 19, 2026)",
@@ -64,28 +64,35 @@ window.STOCK_DATA['BE'] = {
      "consensus": "$1.07B",
      "guidance": "No quarterly guide (FY $3.9\u20134.2B)",
      "yearAgo": "$519.0M",
-     "note": "Consensus implies ~+106% YoY, about flat vs Q2"
+     "note": "vs consensus $1.07B; FY guide raised to $4.4\u20134.6B",
+     "actual": "$1.24B",
+     "result": "beat"
     },
     {
      "label": "Non-GAAP EPS",
      "consensus": "$0.71",
      "guidance": "No quarterly guide (FY $2.55\u20132.85)",
      "yearAgo": "$0.15",
-     "note": "Zacks adjusted EPS (MarketBeat $0.69); Q2'26: $0.78"
+     "note": "vs consensus $0.71 (MarketBeat $0.69); FY guide raised to $3.10\u20133.40",
+     "actual": "$0.94",
+     "result": "beat"
     },
     {
      "label": "GAAP EPS",
      "consensus": "\u2014",
      "guidance": "\u2014",
      "yearAgo": "\u2212$0.10",
-     "note": "Q2'26: $0.62"
+     "note": "No consensus or guide; Q2'26: $0.62",
+     "actual": "$0.78"
     },
     {
      "label": "Non-GAAP gross margin",
      "consensus": "\u2014",
      "guidance": "~34% for FY",
      "yearAgo": "30.4%",
-     "note": "Q2'26: 34.3%"
+     "note": "vs FY guide ~34%; GAAP 33.8%",
+     "actual": "34.5%",
+     "result": "in line"
     }
    ]
   },
