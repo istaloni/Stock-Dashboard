@@ -8,5 +8,6 @@ window.STOCKS = [
   { ticker: "NFLX", name: "Netflix", sector: "Streaming / Entertainment", data: "data/NFLX/data.js" },
   { ticker: "PLTR", name: "Palantir Technologies", sector: "AI / Data analytics software", data: "data/PLTR/data.js" },
   { ticker: "NOW", name: "ServiceNow", sector: "Enterprise software / AI workflows", data: "data/NOW/data.js" },
-  { ticker: "SNOW", name: "Snowflake", sector: "Cloud data platform / AI", data: "data/SNOW/data.js" }
+  { ticker: "SNOW", name: "Snowflake", sector: "Cloud data platform / AI", data: "data/SNOW/data.js" },
+  { ticker: "NVDA", name: "NVIDIA", sector: "Semiconductors / AI computing", data: "data/NVDA/data.js" }
 ];
