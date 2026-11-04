@@ -56,6 +56,7 @@
       for (const s of STOCKS) {
         if (f && !(s.ticker + " " + s.name).toLowerCase().includes(f)) continue;
         const d = (window.STOCK_DATA || {})[s.ticker];
+        window.FMT_FISCAL = !!(d && d.meta.fiscal);
         const a = document.createElement("a");
         a.className = "card stock-card";
         a.href = "stock.html?t=" + encodeURIComponent(s.ticker);
@@ -79,6 +80,7 @@
         cardsEl.appendChild(a);
         requestAnimationFrame(() => sparkline(a.querySelector("canvas"), qs.map(r => r.cons_adjrev)));
       }
+      window.FMT_FISCAL = false;
     }
 
     Promise.allSettled(STOCKS.map(s => loadScript(s.data))).then(() => render());

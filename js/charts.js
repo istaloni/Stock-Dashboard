@@ -75,7 +75,8 @@
       tx.textContent = tickLabels[k];
     });
     // x labels, thinned so they never collide
-    const every = Math.max(1, Math.ceil(n * 46 / pw));
+    const lw = Math.max(46, 7 * Math.max(...cfg.labels.map(l => String(l).length)) + 10);
+    const every = Math.max(1, Math.ceil(n * lw / pw));
     for (let i = n - 1; i >= 0; i -= every) {
       const tx = el("text", { x: X(i), y: H - 6, "text-anchor": "middle", class: "ax" }, svg);
       tx.textContent = cfg.labels[i];

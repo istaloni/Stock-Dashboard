@@ -7,6 +7,7 @@
   try { await loadScript(entry.data); await loadScript(entry.profile || `js/profiles/${ticker.toLowerCase()}.js`); } catch (e) { app.innerHTML = `<p style="padding:40px 0">${e.message}</p>`; return; }
   const D = window.STOCK_DATA[ticker];
   const M = D.meta;
+  window.FMT_FISCAL = !!M.fiscal;
   document.title = `${ticker} Deep Dive`;
 
   // ---- derived metrics ----

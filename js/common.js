@@ -42,7 +42,8 @@
       return String(n);
     },
     pct(x, d = 0) { return x == null || !isFinite(x) ? "—" : (x > 0 ? "+" : "") + x.toFixed(d) + "%"; },
-    q(q) { return "Q" + q.slice(-1) + "'" + q.slice(2, 4); }
+    // Calendar quarters show as Q3'26; companies with a non-calendar fiscal year (meta.fiscal) show as Q3 FY27.
+    q(q) { return window.FMT_FISCAL ? "Q" + q.slice(-1) + " FY" + q.slice(2, 4) : "Q" + q.slice(-1) + "'" + q.slice(2, 4); }
   };
   window.growth = (a, b) => (a == null || b == null || b === 0) ? null : (a / b - 1) * 100 * (b < 0 ? -1 : 1);
 })();
