@@ -51,52 +51,63 @@ window.STOCK_DATA['PLTR'] = {
    ]
   },
   "nextQuarter": {
-   "period": "2026-Q3",
-   "date": "Mon, Nov 2, 2026 \u00b7 after market close (webcast 2 p.m. PT)",
-   "dateConfirmed": true,
-   "asOf": "Oct 23, 2026",
+   "period": "2026-Q4",
+   "date": "Expected early Feb 2027 (not yet announced)",
+   "dateConfirmed": false,
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
-     "Palantir: date announcement",
-     "https://www.stocktitan.net/news/PLTR/palantir-announces-date-of-third-quarter-2026-earnings-release-and-e4l6pbmfvv3z.html"
+     "Palantir Q3'26 release (Q4 guidance)",
+     "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
     ],
     [
-     "MarketBeat consensus",
-     "https://www.marketbeat.com/earnings/reports/2026-11-2-palantir-technologies-inc-stock/"
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/pltr/earnings"
     ],
     [
-     "Palantir Q2'26 release (guidance)",
-     "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm"
+     "Cerbat Gem: Northland estimates (Nov 10, 2026)",
+     "https://www.thecerbatgem.com/2026/11/10/pltr-stock-earnings-estimates-raised-by-northland-securities.html"
+    ],
+    [
+     "Palantir Q4'25 release (year-ago)",
+     "https://www.businesswire.com/news/home/20260201154946/en/"
     ]
    ],
    "items": [
     {
      "label": "Revenue",
-     "consensus": "$2.18B",
-     "guidance": "$2.160\u20132.164B",
-     "yearAgo": "$1.181B",
-     "note": "Palantir has beaten its own guide by 6\u20138% the last two quarters"
+     "consensus": "—",
+     "guidance": "$2.649–2.653B",
+     "yearAgo": "$1.407B",
+     "note": "Guide implies ~+88% YoY; Q3'26: $2.31B"
     },
     {
      "label": "Adjusted EPS",
-     "consensus": "$0.41",
-     "guidance": "\u2014",
-     "yearAgo": "$0.21",
-     "note": "Q2'26: $0.41"
+     "consensus": "$0.52",
+     "guidance": "—",
+     "yearAgo": "$0.25",
+     "note": "TipRanks $0.52 (basis unstated); Northland est. $0.41; Q3'26: $0.44"
     },
     {
      "label": "Adjusted operating income",
-     "consensus": "\u2014",
-     "guidance": "$1.292\u20131.296B",
-     "yearAgo": "$601M",
-     "note": "~60% margin"
+     "consensus": "—",
+     "guidance": "$1.640–1.644B",
+     "yearAgo": "$798M",
+     "note": "Q3'26: $1.427B (62% margin)"
     },
     {
      "label": "US commercial revenue",
-     "consensus": "\u2014",
-     "guidance": "FY > $3.424B",
-     "yearAgo": "$397M",
-     "note": "Q2'26: $764M (+149%)"
+     "consensus": "—",
+     "guidance": "FY > $3.559B",
+     "yearAgo": "$507M",
+     "note": "Q3'26: $984M (+148% YoY)"
+    },
+    {
+     "label": "FY26 outlook",
+     "consensus": "—",
+     "guidance": "$8.530–8.534B rev · adj. FCF $4.8–5.0B",
+     "yearAgo": "FY25 —",
+     "note": "Raised Nov 2; adj. op income $5.245–5.249B"
     }
    ]
   },

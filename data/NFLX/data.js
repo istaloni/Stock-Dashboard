@@ -52,9 +52,9 @@ window.STOCK_DATA['NFLX'] = {
   },
   "nextQuarter": {
    "period": "2026-Q4",
-   "date": "Expected mid/late Jan 2027 (not yet announced)",
+   "date": "Expected mid/late Jan 2027 (not yet announced; TipRanks est. Jan 26)",
    "dateConfirmed": false,
-   "asOf": "Oct 21, 2026",
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
      "Netflix Q3'26 letter (guidance)",
@@ -63,6 +63,10 @@ window.STOCK_DATA['NFLX'] = {
     [
      "Benzinga consensus",
      "https://www.benzinga.com/quote/NFLX/earnings-forecasts"
+    ],
+    [
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/nflx/earnings"
     ]
    ],
    "items": [
@@ -75,21 +79,21 @@ window.STOCK_DATA['NFLX'] = {
     },
     {
      "label": "Diluted EPS",
-     "consensus": "$0.73",
+     "consensus": "$0.68",
      "guidance": "$0.67",
      "yearAgo": "$0.56",
-     "note": "Guide includes job-cut costs"
+     "note": "TipRanks $0.68 (Nov 2026, now post-guide); guide includes job-cut costs"
     },
     {
      "label": "Operating margin",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "26.0%",
      "yearAgo": "24.5%",
      "note": "Q4 is always the low-margin quarter (big content slate)"
     },
     {
      "label": "Free cash flow (FY26)",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "~$12.0B",
      "yearAgo": "$9.5B (FY25)",
      "note": "YTD: $9.5B"

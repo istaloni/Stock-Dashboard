@@ -57,43 +57,47 @@ window.STOCK_DATA['NOW'] = {
   },
   "nextQuarter": {
    "period": "2026-Q4",
-   "date": "Expected late Jan 2027 (not yet announced)",
+   "date": "Expected late Jan 2027 (not yet announced; TipRanks est. Jan 27)",
    "dateConfirmed": false,
-   "asOf": "Oct 29, 2026",
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
      "ServiceNow Q3'26 release (guidance)",
      "https://s205.q4cdn.com/537566246/files/doc_news/ServiceNow-Reports-Third-Quarter-2026-Financial-Results-2026.pdf"
+    ],
+    [
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/now/earnings"
     ]
    ],
    "items": [
     {
      "label": "Subscription revenue",
-     "consensus": "\u2014",
-     "guidance": "$4,245\u20134,255M",
+     "consensus": "—",
+     "guidance": "$4,245–4,255M",
      "yearAgo": "$3,466M",
-     "note": "+22.5\u201323%, helped by Armis"
+     "note": "+22.5–23%, helped by Armis"
     },
     {
      "label": "cRPO growth",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "18.5%",
      "yearAgo": "25% (Q4'25)",
      "note": "Q3'26: 20.5%"
     },
     {
      "label": "Non-GAAP operating margin",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "32%",
      "yearAgo": "31%",
      "note": "Q3'26: 32.5%"
     },
     {
      "label": "Non-GAAP EPS",
-     "consensus": "\u2014",
-     "guidance": "\u2014",
+     "consensus": "$1.07",
+     "guidance": "—",
      "yearAgo": "$0.92",
-     "note": "Q3'26: $1.00 (split-adjusted)"
+     "note": "TipRanks $1.07 (split-adjusted basis); Q3'26: $1.00"
     }
    ]
   },

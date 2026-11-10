@@ -145,9 +145,9 @@ window.STOCK_DATA['SOFI']={
   ],
   "nextQuarter": {
    "period": "2026-Q4",
-   "date": "Expected late Jan 2027 (not yet announced)",
+   "date": "Expected late Jan / early Feb 2027 (not yet announced; TipRanks est. Feb 1)",
    "dateConfirmed": false,
-   "asOf": "Oct 27, 2026",
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
      "SoFi Q3'26 release (guidance)",
@@ -156,6 +156,10 @@ window.STOCK_DATA['SOFI']={
     [
      "Benzinga consensus",
      "https://www.benzinga.com/quote/SOFI/earnings-forecasts"
+    ],
+    [
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/sofi/earnings"
     ]
    ],
    "items": [
@@ -171,20 +175,20 @@ window.STOCK_DATA['SOFI']={
      "consensus": "$0.19",
      "guidance": "No quarterly guide (FY ~$0.61 adjusted)",
      "yearAgo": "$0.13",
-     "note": "Q3'26: $0.18"
+     "note": "TipRanks $0.19 (Nov 2026); Q3'26: $0.18"
     },
     {
      "label": "Members",
-     "consensus": "\u2014",
-     "guidance": "FY growth \u226530%",
+     "consensus": "—",
+     "guidance": "FY growth ≥30%",
      "yearAgo": "13.7M",
      "note": "Q3'26: 17.1M (+35%)"
     },
     {
      "label": "FY27 outlook",
-     "consensus": "\u2014",
-     "guidance": "~$6.4B rev \u00b7 ~$0.90 EPS",
-     "yearAgo": "FY26 ~$5.04B \u00b7 ~$0.61",
+     "consensus": "—",
+     "guidance": "~$6.4B rev · ~$0.90 EPS",
+     "yearAgo": "FY26 ~$5.04B · ~$0.61",
      "note": "First look at 2027"
     }
    ]

@@ -36,56 +36,52 @@ window.STOCK_DATA['INTC'] = {
    ]
   },
   "nextQuarter": {
-   "period": "2026-Q3",
-   "date": "Thu, Oct 29, 2026 \u00b7 after market close (call 2 p.m. PT)",
-   "dateConfirmed": true,
-   "asOf": "Oct 26, 2026",
+   "period": "2026-Q4",
+   "date": "Expected late Jan 2027 (not yet announced; TipRanks est. Jan 28)",
+   "dateConfirmed": false,
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
-     "Intel: date announcement",
-     "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
+     "Intel Q3'26 release (Q4 guidance)",
+     "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
     ],
     [
-     "TipRanks preview (Oct 26, 2026)",
-     "https://www.tipranks.com/news/intel-intc-is-about-to-report-q3-earnings"
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/intc/earnings"
     ],
     [
-     "MarketBeat consensus (Oct 2026)",
-     "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
-    ],
-    [
-     "Intel Q2'26 release (guidance)",
-     "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results/"
+     "Intel Q4'25 release (year-ago)",
+     "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial"
     ]
    ],
    "items": [
     {
      "label": "Revenue",
-     "consensus": "$16.50B",
-     "guidance": "$15.8\u201316.8B",
-     "yearAgo": "$13.65B",
-     "note": "Street sits above the guide midpoint ($16.3B); +21% YoY"
+     "consensus": "—",
+     "guidance": "$15.0–16.0B",
+     "yearAgo": "$13.67B",
+     "note": "Pre-guide street was ~$17.1B; post-guide consensus not found"
     },
     {
      "label": "Non-GAAP EPS",
-     "consensus": "$0.40",
-     "guidance": "$0.38",
-     "yearAgo": "$0.23",
-     "note": "Consensus implies +74% YoY"
+     "consensus": "$0.27",
+     "guidance": "$0.25",
+     "yearAgo": "$0.15",
+     "note": "TipRanks $0.27 (basis unstated, likely adjusted); Q3'26: $0.52"
     },
     {
      "label": "GAAP EPS",
-     "consensus": "\u2014",
-     "guidance": "$0.31",
-     "yearAgo": "$0.90",
-     "note": "Excludes any new escrowed-share mark-to-market swing"
+     "consensus": "—",
+     "guidance": "$0.10",
+     "yearAgo": "–$0.12",
+     "note": "Q3'26: $0.60"
     },
     {
      "label": "Non-GAAP gross margin",
-     "consensus": "\u2014",
-     "guidance": "42.0%",
-     "yearAgo": "40.0%",
-     "note": "Q2'26: 41.8%"
+     "consensus": "—",
+     "guidance": "38.0%",
+     "yearAgo": "37.9%",
+     "note": "Q3'26: 44.1%"
     }
    ]
   },

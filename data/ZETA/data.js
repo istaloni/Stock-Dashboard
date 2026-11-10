@@ -141,17 +141,29 @@ window.STOCK_DATA['ZETA']= {
   ],
   "nextQuarter": {
    "period": "2026-Q3",
-   "date": "Expected Tue Nov 3 \u2013 Thu Nov 5, 2026 \u00b7 after market close (not yet confirmed by Zeta)",
-   "dateConfirmed": false,
-   "asOf": "Oct 26, 2026",
+   "date": "Mon, Nov 9, 2026 · after market close",
+   "dateConfirmed": true,
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
-     "Earnings Whispers (consensus & expected date)",
-     "https://www.earningswhispers.com/stocks/ZETA"
+     "Zeta Q3'26 results release (Nov 9, 2026)",
+     "https://www.sec.gov/Archives/edgar/data/0001851003/000119312526453558/zeta-ex99_1.htm"
     ],
     [
-     "MarketBeat consensus & estimated date",
-     "https://www.marketbeat.com/earnings/reports/2026-11-3-zeta-global-holdings-corp-stock/"
+     "Investing.com: Q3 vs forecasts (Nov 2026)",
+     "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-zeta-global-tops-q3-2026-forecasts-shares-slip-after-hours-93CH-4969898"
+    ],
+    [
+     "Zeta: date announcement (Oct 26, 2026)",
+     "https://www.nasdaq.com/press-release/zeta-global-announce-third-quarter-2026-results-november-9-2026-2026-10-26"
+    ],
+    [
+     "Zacks preview via TradingView (Nov 2026)",
+     "https://www.tradingview.com/news/zacks:83fd68e7a094b:0-zeta-gears-up-to-report-q3-earnings-what-s-in-the-cards/"
+    ],
+    [
+     "Earnings Whispers preview (Nov 2, 2026)",
+     "https://finviz.com/news/413872/zeta-global-must-show-its-palantir-and-openai-partnerships-can-move-beyond-the-pipeline"
     ],
     [
      "Zeta Q2'26 release (guidance)",
@@ -162,37 +174,43 @@ window.STOCK_DATA['ZETA']= {
     {
      "label": "Revenue",
      "consensus": "$470.5M",
-     "guidance": "$469\u2013472M",
+     "guidance": "$469–472M",
      "yearAgo": "$337M",
-     "note": "EW $470.5M, MarketBeat $470.9M \u2014 at guide midpoint (+40% YoY)"
+     "note": "vs consensus $470.5M and guide $469–472M; Q4 guide $521–525M",
+     "actual": "$493M",
+     "result": "beat"
     },
     {
      "label": "Adj. EBITDA",
-     "consensus": "\u2014",
-     "guidance": "$115\u2013116M (24.4\u201324.7% margin)",
+     "consensus": "—",
+     "guidance": "$115–116M (24.4–24.7% margin)",
      "yearAgo": "$78M",
-     "note": "Guide implies +48% YoY"
+     "note": "vs guide $115–116M (no consensus); 24.6% margin; Q4 guide $135.2–136.3M",
+     "actual": "$121M",
+     "result": "beat"
     },
     {
      "label": "EPS",
-     "consensus": "$0.08",
-     "guidance": "FY GAAP EPS $0.09\u20130.11",
-     "yearAgo": "GAAP \u2013$0.02",
-     "note": "EW $0.08 (GAAP); MarketBeat $0.28 vs year-ago $0.18 (non-GAAP basis)"
+     "consensus": "$0.28",
+     "guidance": "FY GAAP EPS $0.09–0.11",
+     "yearAgo": "GAAP –$0.02",
+     "note": "Adjusted vs consensus $0.28 (Zacks; Investing.com shows same); GAAP EPS $0.14",
+     "actual": "$0.38",
+     "result": "beat"
     },
     {
      "label": "FY26 revenue",
-     "consensus": "\u2014",
-     "guidance": "$1,811\u20131,824M",
+     "consensus": "—",
+     "guidance": "$1,811–1,824M",
      "yearAgo": "FY25 $1,305M",
-     "note": "Raised $33M in August"
+     "note": "Raised to $1,853–1,857M on Nov 9"
     },
     {
      "label": "FY26 free cash flow",
-     "consensus": "\u2014",
-     "guidance": "$255\u2013256M",
+     "consensus": "—",
+     "guidance": "$255–256M",
      "yearAgo": "FY25 $165M",
-     "note": "14% FCF margin"
+     "note": "Raised to $270.6–271.6M on Nov 9; Q3 FCF $82M"
     }
    ]
   }

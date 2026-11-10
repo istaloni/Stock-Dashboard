@@ -48,10 +48,14 @@ window.STOCK_DATA['SNOW'] = {
   },
   "nextQuarter": {
    "period": "2027-Q3",
-   "date": "Expected early Dec 2026 (not yet announced)",
-   "dateConfirmed": false,
-   "asOf": "Nov 4, 2026",
+   "date": "Wed, Dec 2, 2026 · after market close (call 2 p.m. PT)",
+   "dateConfirmed": true,
+   "asOf": "Nov 9, 2026",
    "sources": [
+    [
+     "Snowflake: date announcement (Nov 2, 2026)",
+     "https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/"
+    ],
     [
      "Snowflake Q2 FY27 release (guidance)",
      "https://www.nasdaq.com/press-release/snowflake-reports-financial-results-second-quarter-fiscal-2027-2026-09-02"
@@ -60,28 +64,28 @@ window.STOCK_DATA['SNOW'] = {
    "items": [
     {
      "label": "Product revenue",
-     "consensus": "\u2014",
-     "guidance": "$1,588\u20131,593M",
+     "consensus": "—",
+     "guidance": "$1,588–1,593M",
      "yearAgo": "$1,158M",
-     "note": "+37\u201338% YoY"
+     "note": "+37–38% YoY"
     },
     {
      "label": "Non-GAAP operating margin",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "15.5%",
      "yearAgo": "10.8%",
      "note": "Q2 FY27: 15.3%"
     },
     {
      "label": "Net revenue retention",
-     "consensus": "\u2014",
-     "guidance": "\u2014",
+     "consensus": "—",
+     "guidance": "—",
      "yearAgo": "125%",
      "note": "Q2 FY27: 126%"
     },
     {
      "label": "FY27 product revenue",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "$6.07B",
      "yearAgo": "FY26 $4.47B",
      "note": "Raised in Sept"

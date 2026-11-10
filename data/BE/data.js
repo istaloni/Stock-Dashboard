@@ -36,63 +36,52 @@ window.STOCK_DATA['BE'] = {
    ]
   },
   "nextQuarter": {
-   "period": "2026-Q3",
-   "date": "Thu, Oct 22, 2026 \u00b7 after market close (call 2 p.m. PT)",
-   "dateConfirmed": true,
-   "asOf": "Oct 26, 2026",
+   "period": "2026-Q4",
+   "date": "Expected late Jan / Feb 2027 (not yet announced)",
+   "dateConfirmed": false,
+   "asOf": "Nov 10, 2026",
    "sources": [
     [
-     "Bloom Q3'26 results release (Oct 22, 2026)",
+     "Bloom Q3'26 results release (guidance, Oct 22, 2026)",
      "https://www.bloomenergy.com/news/bloom-energy-reports-record-third-quarter-2026-financial-results-and-raises-full-year-2026-guidance/"
     ],
     [
-     "Zacks consensus via Yahoo Finance (Oct 19, 2026)",
-     "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-q3-earnings-deck-121600245.html"
+     "Bloom Q4'25 release (year-ago)",
+     "https://s29.q4cdn.com/452919417/files/doc_financials/2025/q4/Q4-2025-Financial-Results.pdf"
     ],
     [
-     "MarketBeat consensus (Oct 19, 2026)",
-     "https://www.marketbeat.com/earnings/reports/2026-10-22-bloom-energy-co-stock/"
-    ],
-    [
-     "Bloom Q2'26 release (guidance)",
-     "https://s29.q4cdn.com/452919417/files/doc_financials/2026/q2/Q226-Earnings-release.pdf"
+     "TipRanks consensus (Nov 2026)",
+     "https://www.tipranks.com/stocks/be/earnings"
     ]
    ],
    "items": [
     {
      "label": "Revenue",
-     "consensus": "$1.07B",
-     "guidance": "No quarterly guide (FY $3.9\u20134.2B)",
-     "yearAgo": "$519.0M",
-     "note": "vs consensus $1.07B; FY guide raised to $4.4\u20134.6B",
-     "actual": "$1.24B",
-     "result": "beat"
+     "consensus": "—",
+     "guidance": "No quarterly guide (FY $4.4–4.6B)",
+     "yearAgo": "$777.7M",
+     "note": "Q3'26: $1.24B; FY guide implies ~$1.35–1.55B in Q4"
     },
     {
      "label": "Non-GAAP EPS",
-     "consensus": "$0.71",
-     "guidance": "No quarterly guide (FY $2.55\u20132.85)",
-     "yearAgo": "$0.15",
-     "note": "vs consensus $0.71 (MarketBeat $0.69); FY guide raised to $3.10\u20133.40",
-     "actual": "$0.94",
-     "result": "beat"
+     "consensus": "$1.07",
+     "guidance": "No quarterly guide (FY $3.10–3.40)",
+     "yearAgo": "$0.45",
+     "note": "TipRanks $1.07 (basis unstated, likely adjusted); Q3'26: $0.94"
     },
     {
      "label": "GAAP EPS",
-     "consensus": "\u2014",
-     "guidance": "\u2014",
-     "yearAgo": "\u2212$0.10",
-     "note": "No consensus or guide; Q2'26: $0.62",
-     "actual": "$0.78"
+     "consensus": "—",
+     "guidance": "—",
+     "yearAgo": "$0.00",
+     "note": "Q3'26: $0.78"
     },
     {
      "label": "Non-GAAP gross margin",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "~34% for FY",
-     "yearAgo": "30.4%",
-     "note": "vs FY guide ~34%; GAAP 33.8%",
-     "actual": "34.5%",
-     "result": "in line"
+     "yearAgo": "31.9%",
+     "note": "Q3'26: 34.5%"
     }
    ]
   },

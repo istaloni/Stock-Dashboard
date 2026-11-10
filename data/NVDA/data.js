@@ -43,10 +43,30 @@ window.STOCK_DATA['NVDA'] = {
   },
   "nextQuarter": {
    "period": "2027-Q3",
-   "date": "Expected mid/late Nov 2026 (not yet announced)",
-   "dateConfirmed": false,
-   "asOf": "Nov 4, 2026",
+   "date": "Tue, Nov 17, 2026 · after market close (~1:20 p.m. PT; call 2 p.m. PT)",
+   "dateConfirmed": true,
+   "asOf": "Nov 10, 2026",
    "sources": [
+    [
+     "NVIDIA: call announcement (Oct 28, 2026)",
+     "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+    ],
+    [
+     "Theta consensus (Nov 9, 2026)",
+     "https://www.theta.md/earnings/nvda/q3-2027"
+    ],
+    [
+     "TipRanks preview (updated Nov 9, 2026)",
+     "https://www.tipranks.com/news/article/nvidia-stocks-nvda-sell-off-looks-overdone-ahead-of-q3"
+    ],
+    [
+     "Yahoo Finance UK preview (Nov 6, 2026)",
+     "https://uk.finance.yahoo.com/news/17-november-key-nvidia-shares-121500357.html"
+    ],
+    [
+     "Barchart via Yahoo (Oct 28, 2026)",
+     "https://finance.yahoo.com/markets/stocks/articles/expect-nvidias-next-quarterly-earnings-151739351.html"
+    ],
     [
      "NVIDIA Q2 FY27 release (outlook)",
      "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
@@ -55,29 +75,29 @@ window.STOCK_DATA['NVDA'] = {
    "items": [
     {
      "label": "Revenue",
-     "consensus": "\u2014",
-     "guidance": "$108.0B \u00b1 2%",
+     "consensus": "$109.0B",
+     "guidance": "$108.0B ± 2%",
      "yearAgo": "$57.0B",
-     "note": "Q2 FY27: $96.2B"
+     "note": "Theta $108.99B (Nov 9), TipRanks $108.8B — just above guide midpoint"
     },
     {
      "label": "Gross margin",
-     "consensus": "\u2014",
+     "consensus": "—",
      "guidance": "74.0%",
      "yearAgo": "73.4% GAAP",
      "note": "Q2 FY27: 75.0%"
     },
     {
      "label": "Non-GAAP EPS",
-     "consensus": "\u2014",
-     "guidance": "\u2014",
+     "consensus": "$2.47",
+     "guidance": "—",
      "yearAgo": "$1.30",
-     "note": "Q2 FY27: $2.22"
+     "note": "Adjusted; $2.47 (TipRanks, Theta Nov 9); Q2 FY27: $2.22"
     },
     {
      "label": "Data Center revenue",
-     "consensus": "\u2014",
-     "guidance": "\u2014",
+     "consensus": "—",
+     "guidance": "—",
      "yearAgo": "$51.2B",
      "note": "Q2 FY27: $89.0B (+117%)"
     }
